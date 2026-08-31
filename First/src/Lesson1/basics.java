@@ -1,4 +1,4 @@
-package Basics;
+package Lesson1;
 
 public class basics{
     public static void main(String[] args) {

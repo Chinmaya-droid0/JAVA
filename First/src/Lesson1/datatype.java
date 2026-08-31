@@ -1,4 +1,4 @@
-package Basics;
+package Lesson1;
 
 public class datatype {
     public static void main(String[] args) {
