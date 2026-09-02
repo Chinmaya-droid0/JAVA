@@ -26,6 +26,21 @@ public class TypeCasting {
 
         byte b = (byte) 130;
         System.out.println(b); // (-126), Range : -128 to 127 for Byte
+
+        char ch = 'a';
+
+        in = ch;
+        System.out.println(in);
+        System.out.println(ch);
+        System.out.println((int) ch);
+
+        ch = 70;
+        System.out.println(ch);
+        System.out.println((int) 200);
+
+        ch = (char)(ch+1);
+        System.out.println(ch);
+
     }
 
 }
