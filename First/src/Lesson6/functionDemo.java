@@ -28,7 +28,7 @@ public class functionDemo {
 
     public static int addThree(int a, int b, int c) {
         int sum = a+b+c;
-        return sum;
+        return sum;  // A function returns mostly a single value
 
     }
 }
