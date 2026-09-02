@@ -41,6 +41,16 @@ public class TypeCasting {
         ch = (char)(ch+1);
         System.out.println(ch);
 
+        ch = 'a' + 1;
+        ch = (char) ('a' + ch);
+        System.out.println(ch);
+
+        System.out.println(10+ 20 + "Hello" + 10 + 20);
+        System.out.println(2+ ' ' +5);
+        System.out.println(2 + " " + 5);
+        System.out.println("hello" + '\t' + "World");
+        System.out.println(2 + '\t' + 3);
+
     }
 
 }
