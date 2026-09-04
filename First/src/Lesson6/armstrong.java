@@ -7,9 +7,9 @@ public class armstrong {
          int n = sc.nextInt();
 
          if(armstrong(n)){
-             System.out.println("Yes");
+             System.out.println("It is An Armstrong Number");
          } else{
-             System.out.println("No");
+             System.out.println("Not an Armstrong Number");
          }
 
 
