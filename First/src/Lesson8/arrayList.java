@@ -34,7 +34,7 @@ public class arrayList {
 
         // Iteration
         for(String language : languages){
-            System.out.println(language);
+            System.out.print(language + " ");
         }
 
     }
