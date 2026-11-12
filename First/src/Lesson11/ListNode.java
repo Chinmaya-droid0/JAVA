@@ -2,7 +2,7 @@ package Lesson11;
 
 
  //Definition for singly-linked list.
-  public class ListNode {
+  public class ListNode{
       int val;
       ListNode next;
       ListNode() {}
@@ -10,7 +10,7 @@ package Lesson11;
       ListNode(int val, ListNode next) { this.val = val; this.next = next; }
   }
 
-class DuplicateLL {
+class DuplicateLL{
     public ListNode deleteDuplicates(ListNode head) {
         ListNode current = head;
 
